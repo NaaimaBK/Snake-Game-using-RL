@@ -14,21 +14,28 @@ Un jeu Snake classique implémenté avec Python et Pygame, utilisant l'apprentis
 ## 🏗️ Architecture du Projet
 Snake-Game-using-RL/
 │
-├── agent.py # Agent RL et algorithme DQN
-├── game.py # Environnement du jeu Snake
-├── model.py # Architecture du réseau de neurones
-├── replay_model.py # Mémoire de replay experience
-├── helper.py # Fonctions utilitaires
-├── snake_game_human.py # Version jouable par un humain
+├── src/                          # Code source principal
+│   ├── agent.py                  # Agent RL et algorithme DQN
+│   ├── game.py                   # Environnement du jeu Snake
+│   ├── model.py                  # Architecture du réseau de neurones
+│   ├── replay_model.py           # Mémoire de replay experience
+│   ├── helper.py                 # Fonctions utilitaires
+│   └── snake_game_human.py       # Version jouable par un humain
 │
-├── model/ # Modèles entraînés sauvegardés
-├── training_progress.png # Graphique de progression
+├── models/                       # Modèles entraînés sauvegardés
+│   ├── best_model.pth
+│   └── latest_model.pth
 │
-├# Ressources graphiques
-├── snake.png
-├── apple.png
-├── background.jpg
-├── arial.ttf
+├── assets/                       # Ressources graphiques et sons
+│   ├── images/
+│   │   ├── snake.png
+│   │   ├── apple.png
+│   │   └── background.jpg
+│   └── fonts/
+│       └── arial.ttf
+│
+├── README.md                     # Documentation principale
+└── .gitignore                    # Fichiers à ignorer par Git
 
 
 ## 🚀 Installation

@@ -12,9 +12,8 @@ Un jeu Snake classique implémenté avec Python et Pygame, utilisant l'apprentis
 - **Mode jeu humain** vs **mode IA**
 
 ## 🏗️ Architecture du Projet
-Snake-Game-using-RL/
-agent.py                  # Agent RL et algorithme DQN
-game.py                   # Environnement du jeu Snake
+- agent.py                  # Agent RL et algorithme DQN
+- game.py                   # Environnement du jeu Snake
 model.py                  # Architecture du réseau de neurones
 replay_model.py           # Mémoire de replay experience
 helper.py                 # Fonctions utilitaires
